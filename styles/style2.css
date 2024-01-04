@@ -1,0 +1,37 @@
+
+.body{
+    width: auto;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+nav li:hover{
+    background-color: purple;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
