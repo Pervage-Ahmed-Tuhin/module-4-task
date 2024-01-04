@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sp{
+    background-color: rgb(130, 221, 221);
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+header > nav > ul{
+    list-style: none;
+    align-content: center;
+
+}
+
+header > nav > ul > li{
+    display: inline-block;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.pop{
+    font-size: larger;
+    margin-top: 30px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
